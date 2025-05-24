@@ -1,30 +1,42 @@
-# Paper_Trading 
+# 📈 Paper Trading Platform
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A responsive, full-featured **Paper Trading Web Application** that simulates real-world stock trading using virtual money. Designed to mimic platforms like Groww, Zerodha, and AngelOne, this app helps users learn trading in a risk-free environment.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kris-gadaras-projects/v0-paper-trading)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/FQOXI79P8a9)
+🌐 **Live Demo**: [v0-paper-trading.vercel.app](https://v0-paper-trading-kris-gadaras-projects.vercel.app)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Features
 
-## Deployment
+- 🔐 **Authentication** (Login & Signup)
+- 📊 **Real-time Portfolio** view with virtual holdings
+- 🔍 **Stock Search & Info**
+- 💼 **Buy & Sell Orders**
+- ⭐ **Watchlist** with add/remove stock feature
+- 📈 **Interactive Charts** (Recharts)
+- 📂 **Order History** & trade tracking
+- ⚙️ **Settings** page (theme toggle, account)
+- 🌙 **Dark/Light Mode**
+- 📱 **Fully Responsive Design** for all devices
+- 🎯 **Animations & Transitions** (Framer Motion)
 
-Your project is live at:
+---
 
-**[https://vercel.com/kris-gadaras-projects/v0-paper-trading](https://vercel.com/kris-gadaras-projects/v0-paper-trading)**
+## 🛠️ Tech Stack
 
-## Build your app
+- **Frontend**: React.js, Next.js (App Router)
+- **UI/Styling**: Tailwind CSS, ShadCN UI
+- **Charts**: Recharts
+- **Animations**: Framer Motion
+- **State Management**: React Hooks
+- **Mock Data**: Simulated stock prices with live updates
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/FQOXI79P8a9](https://v0.dev/chat/projects/FQOXI79P8a9)**
+## 📦 Installation & Setup
 
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+git clone https://github.com/your-username/paper-trading-platform.git
+cd paper-trading-platform
+npm install
+npm run dev
